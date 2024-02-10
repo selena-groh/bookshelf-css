@@ -11,4 +11,13 @@
   &-subtitle {
     text-align: center;
   }
+  &-subtitle {
+    margin-bottom: 32px;
+  }
+  &-sections {
+    max-width: 960px;
+    display: grid;
+    gap: 32px;
+    margin: auto;
+  }
 }

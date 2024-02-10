@@ -70,24 +70,3 @@
     }
   }
 }
-
-.Bookshelf-bookWrap {
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.Bookshelf-bookWrap:nth-child(2n) {
-  font-family: "Gabriela", serif;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.Bookshelf-bookWrap:nth-child(3n) {
-  font-family: "Gentium Book Plus", serif;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.Bookshelf-bookWrap:last-child .Book {
-  transform: translateX(300%) rotate(-20deg);
-  transform-origin: bottom left;
-}
