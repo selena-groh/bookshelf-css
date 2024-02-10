@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bookshelf-css/static/css/main.346ee28e.css",
-    "main.js": "/bookshelf-css/static/js/main.3eab0efb.js",
+    "main.js": "/bookshelf-css/static/js/main.f1343e43.js",
     "static/media/iron-flame.jpeg": "/bookshelf-css/static/media/iron-flame.a0da227d5bd4a612cf14.jpeg",
     "static/media/fourth-wing.jpeg": "/bookshelf-css/static/media/fourth-wing.a1fd39b59de3e9b50d84.jpeg",
     "static/media/the-anthropocene-reviewed.jpeg": "/bookshelf-css/static/media/the-anthropocene-reviewed.5120f5bfadcce2814a1b.jpeg",
@@ -46,10 +46,10 @@
     "static/media/hyperbole-and-a-half.jpeg": "/bookshelf-css/static/media/hyperbole-and-a-half.2d5e75887b42eccf72b8.jpeg",
     "index.html": "/bookshelf-css/index.html",
     "main.346ee28e.css.map": "/bookshelf-css/static/css/main.346ee28e.css.map",
-    "main.3eab0efb.js.map": "/bookshelf-css/static/js/main.3eab0efb.js.map"
+    "main.f1343e43.js.map": "/bookshelf-css/static/js/main.f1343e43.js.map"
   },
   "entrypoints": [
     "static/css/main.346ee28e.css",
-    "static/js/main.3eab0efb.js"
+    "static/js/main.f1343e43.js"
   ]
 }
