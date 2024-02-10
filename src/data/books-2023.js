@@ -41,7 +41,7 @@ import CloudCuckooLand from "./book-covers/cloud-cuckoo-land.jpeg";
 import SecretHistory from "./book-covers/secret-history.jpeg";
 import MinuteEarthExplains from "./book-covers/minuteearth-explains.jpeg";
 
-export default books2023 = [
+const books2023 = [
   {
     title:
       "MinuteEarth Explains: How Did Whales Get So Big? And Other Curious Questions about Animals, Nature, Geology, and Planet Earth",
@@ -425,3 +425,5 @@ export default books2023 = [
     coverImg: LegendsAndLattes,
   },
 ];
+
+export default books2023;

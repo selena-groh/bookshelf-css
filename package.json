@@ -1,10 +1,10 @@
 {
-  "name": "bookshelf",
+  "name": "bookshelf-css",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "description": "",
   "keywords": [],
-  "homepage": "http://selena-groh.github.io/bookshelf",
+  "homepage": "http://selena-groh.github.io/bookshelf-css",
   "main": "src/index.js",
   "dependencies": {
     "classnames": "latest",
