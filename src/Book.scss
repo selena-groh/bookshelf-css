@@ -1,0 +1,93 @@
+.Book {
+  $root: &;
+  position: relative;
+  height: 200px;
+  background-color: lightgray;
+  border-radius: 4px;
+  padding: 16px 2px 8px;
+  overflow: hidden;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+  // Shadows around the corners
+  // box-shadow: inset 0px 0px 8px 1px #5e5b57;
+
+  // Shadows around the corners
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   inset: 0;
+  //   box-shadow: inset 0px 0px 16px 4px #000000;
+  //   mix-blend-mode: soft-light;
+  //   // clip-path: inset(16px -16px 16px -16px);
+  // }
+
+  &-title {
+    flex-grow: 2;
+    font-size: 8px;
+    text-align: left;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &-author {
+    font-size: 8px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    #{$root}--hasSeries#{$root}--isWide & {
+      writing-mode: initial;
+      text-orientation: initial;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  &-series {
+    min-width: 8px;
+    min-height: 8px;
+    font-size: 8px;
+  }
+  &-seriesNumber {
+    min-width: 8px;
+    min-height: 8px;
+    font-size: 8px;
+  }
+  &--isSkinny {
+    gap: 8px;
+    & #{$root}-author,
+    & #{$root}-series,
+    & #{$root}-seriesNumber {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+  }
+}
+
+.Bookshelf-bookWrap {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.Bookshelf-bookWrap:nth-child(2n) {
+  font-family: "Gabriela", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.Bookshelf-bookWrap:nth-child(3n) {
+  font-family: "Gentium Book Plus", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.Bookshelf-bookWrap:last-child .Book {
+  transform: translateX(300%) rotate(-20deg);
+  transform-origin: bottom left;
+}

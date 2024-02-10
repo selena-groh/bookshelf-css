@@ -1,0 +1,31 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "description": "",
+  "keywords": [],
+  "homepage": "http://selena-groh.github.io/bookshelf",
+  "main": "src/index.js",
+  "dependencies": {
+    "classnames": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "sass": "latest",
+    "node-vibrant": "3.1.6"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3",
+    "gh-pages": "3.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
